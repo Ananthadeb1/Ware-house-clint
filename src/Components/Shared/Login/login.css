@@ -1,0 +1,42 @@
+.form-container {
+    width: 50%;
+    border: 2px solid rgb(184, 50, 1);
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 10px;
+    padding-bottom: 30px;
+    color: rgb(110, 17, 1);
+}
+
+.form-container .btn {
+    background-color: rgba(255, 180, 42, 0.842);
+    border: 1px solid rgba(207, 136, 4, 0.568);
+}
+
+.form-container .btn:hover {
+    background-color: rgb(252, 220, 80);
+}
+
+.link-text {
+    color: rgb(110, 17, 1);
+
+}
+
+.link-text:hover {
+    color: rgb(204, 35, 5);
+
+}
+
+@media only screen and (max-width:576px) {
+    .form-container {
+        width: 95%;
+    }
+
+}
+
+@media only screen and (min-width:577px) and (max-width:993px) {
+    .form-container {
+        width: 60%;
+    }
+
+}

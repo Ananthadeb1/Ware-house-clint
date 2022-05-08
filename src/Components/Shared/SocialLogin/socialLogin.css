@@ -1,0 +1,6 @@
+.social-login-container .d-flex {
+    border: 2px solid rgba(126, 35, 2, 0.719);
+    background-color: rgba(153, 46, 7, 0.726);
+    border-radius: 5px;
+    font-size: larger;
+}
