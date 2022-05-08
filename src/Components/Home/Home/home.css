@@ -1,0 +1,11 @@
+.carousel-container {
+    box-shadow: 10px 10px 18px rgb(48, 6, 6);
+}
+
+.home h2 {
+    color: rgb(252, 40, 2);
+    font-family: cursive;
+    font-size: 50px;
+    text-decoration: underline;
+
+}
