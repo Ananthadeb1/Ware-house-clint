@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './spice.css'
 
 const Spice = ({ spice }) => {
-    const { name, description, manufacturer, price, quantity, img } = spice;
+    const { _id, name, description, manufacturer, price, quantity, img } = spice;
 
     return (
         <div className='text-start '>
@@ -16,7 +16,7 @@ const Spice = ({ spice }) => {
                     <p className="card-text"><strong>Price</strong> : {price} $</p>
                     <p className="card-text"><strong>Manufacturer</strong> : {manufacturer}</p>
 
-                    <Link to='/'><button className='btn rounded'>Manage Stock</button>  </Link>
+                    <Link to={`/spice/${_id}`}><button className='btn rounded'>Manage Stock</button>  </Link>
                 </div>
             </div>
 

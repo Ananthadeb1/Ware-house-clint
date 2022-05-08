@@ -1,6 +1,8 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import useSPices from '../../../hooks/useSpices';
 import Spice from '../../Shared/Spice/Spice';
+import Spinner1 from '../../Shared/Spinner/Spinner';
 import Banner from '../Banner/Banner';
 import './home.css'
 import icon from './vector.png'
@@ -22,9 +24,11 @@ const Home = () => {
             <h2 className='mt-5'>Our Products</h2>
             <div className='spice-Container mt-3'>
                 {
-                    spices.slice(0, 6).map(spice => <Spice key={spice.id} spice={spice}></Spice>)
+                    spices.length < 0 ? <Spinner1></Spinner1> : spices.slice(0, 6).map(spice => <Spice key={spice.id} spice={spice}></Spice>)
                 }
+
             </div>
+            <Link to='/inventory'><button className='btn'>Manage Stocks</button></Link>
 
         </div>
     );
