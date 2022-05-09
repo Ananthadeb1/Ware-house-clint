@@ -1,0 +1,98 @@
+[
+    {
+        "name": "Cinamon",
+        "description": "Dry Cinamon is made by using best Chinese origin cinamon and after carefull selecting we can we csn suplly best quality with good pricing. Contact Us to get more about it ",
+        "manufacturer": "Shandong Export",
+        "quantity": "10kg",
+        "price": "47",
+        "img": "https://broncolor.swiss/assets/img/Learn-articles/How-to-video/How-to-shoot-outstanding-product-photography-parfume/_1200x630_crop_center-center_82_none/Parf%C3%BCm.jpg?mtime=1579620830"
+    },
+    {
+        "name": "MISS DIOR EAU DE",
+        "description": "Miss Dior Eau de Parfum reinvents itself with a new scent.In 1947, Miss Dior was born out of a wild impetus where the pressing desire to re-enchant the lives of women and open up their eyes, once again, to the sparkling colors of love was felt.",
+        "manufacturer": "DIOR co. ltd",
+        "quantity": "150 ml",
+        "price": "300",
+        "img": "https://eco-beauty.dior.com/dw/image/v2/BDGF_PRD/on/demandware.static/-/Sites-master_dior/default/dw7d393fad/assets/Y0996347/Y0996347_C099600764_E01_GHC.jpg?sw=460&sh=498&sm=fit&imwidth=460"
+    },
+    {
+        "name": "Cumin Powder",
+        "description": "Ground cumin powder is the ancient spice of modern times. Cumin is one of the most highly cited spices in literature, from the bible to medicinal texts and spell books (supposedly for love and wealth). Our favorite texts are the ones that tell us to make a garlic-cumin vinaigrette to sprinkle over roasted eggplant.",
+        "manufacturer": "SpiceIt Internationnal Ltd",
+        "quantity": "10kg",
+        "price": "29",
+        "img": "https://i.ibb.co/zs2TSqQ/cumin-1.png"
+    },
+    {
+        "name": "Juniper Berries, Ground",
+        "description": "It’s a shame that you can’t serve the aroma of juniper berries with soda water and a wedge of lime over ice. Oh, wait, you can. Still, the flavor of gin doesn’t stand a chance to fresh ground juniper berries. ",
+        "manufacturer": "Ground Int. Ltd",
+        "quantity": "10kg",
+        "price": "79",
+        "img": "https://i.ibb.co/HDWvQDr/juniper.png"
+    },
+    {
+        "name": "Paprika, Hungarian, Smoked (Bittersweet)",
+        "description": "Garnet colored and pleasantly bittersweet this unique smoked Hungarian paprika spice is rambunctious and clever. Perfect for game meats and adding to hot chocolate.",
+        "manufacturer": "Paprika Co Ltd",
+        "quantity": "10kg",
+        "price": "19",
+        "img": "https://i.ibb.co/qL87YHv/paprika.png"
+    },
+    {
+        "name": "Nutmeg, Ground",
+        "description": "“I had a little nut tree, nothing would it bear; But a silver nutmeg, and a golden pear.”-Mother Goose ",
+        "manufacturer": "Deez Nuts Ltd",
+        "quantity": "10kg",
+        "price": "44",
+        "img": "https://i.ibb.co/HVN5t1R/Nutmeg.png"
+    },
+    {
+        "name": "Red Pepper (Extra Hot), Crushed",
+        "description": "You want some spice to keep at the table, ya? Something with a bit of boom and a bit of burn? We got what you need right here.",
+        "manufacturer": "Red Chilli Ltd",
+        "quantity": "10kg",
+        "price": "59",
+        "img": "https://i.ibb.co/1f1QXqt/chilli.png"
+    },
+    {
+        "name": "Pink Peppercorns, Ground",
+        "description": "A straight-A cheerleader who smells of strawberries and can eat ghost chiles raw to prove she’s tougher than you.",
+        "manufacturer": "Xinua Xiao Ltd",
+        "quantity": "10kg",
+        "price": "39",
+        "img": "https://i.ibb.co/vxL0tJQ/pink-papercorn.png"
+    },
+    {
+        "name": "Cardamom Pods, Green",
+        "description": "Whole green cardamom pods are a collection of contrasts: soft and penetrating, lemony and piney, smoky and clean. These contrasts all balance perfectly in both sweet and savory cooking. ",
+        "manufacturer": "Shandong Concept Internationnal Co Ltd",
+        "quantity": "10kg",
+        "price": "49",
+        "img": "https://i.ibb.co/7X7sNg6/cardemom.png"
+    },
+    {
+        "name": "Mustard Seeds, Black",
+        "description": "The mustard that walks the streets at night fighting crime and wearing a domino mask. Dark and intoxicating, it’ll put you in your place if you cross it.",
+        "manufacturer": "Xinua Xiao Ltd ",
+        "quantity": "10kg",
+        "price": "51",
+        "img": "https://i.ibb.co/ThcSB3d/black-musterd.png"
+    },
+    {
+        "name": "Sesame Seeds, Black",
+        "description": "A bit of a leper in the spice world – always begging to be used and used so rarely. A shame considering these have significantly more flavor than their pale counterparts. ",
+        "manufacturer": "Shandong Concept Internationnal Co Ltd",
+        "quantity": "10kg",
+        "price": "19",
+        "img": "https://i.ibb.co/ykLpddm/sessame-1.png"
+    },
+    {
+        "name": "Mustard Seeds, Yellow",
+        "description": "Yellow mustard seeds have an old world romantic flavor to them; acrid and musky, but behind it all are hints of white wine and tarragon. When you aren’t looking it sits in the cupboard reading Charlotte Brontë.",
+        "manufacturer": "Ground Int. Ltd",
+        "quantity": "10kg",
+        "price": "69",
+        "img": "https://i.ibb.co/FnshhRh/sessame-2.png"
+    }
+]

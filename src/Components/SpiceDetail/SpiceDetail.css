@@ -1,0 +1,27 @@
+.add-form {
+    border: 1px solid rgba(158, 64, 2, 0.37);
+    border-radius: 3px;
+    background-color: rgba(241, 125, 30, 0.692);
+}
+
+
+.formLabel {
+    font-size: 20px;
+    font-weight: 600;
+
+}
+
+.formInput {
+    width: 50%;
+    border-radius: 5px;
+    border: 1px solid hsl(0, 5%, 41%);
+    height: 30px;
+}
+
+.formBtn {
+    border: 2px solid rgb(158, 64, 2);
+    border-radius: 3px;
+    background-color: rgba(161, 66, 3, 0.76);
+    width: 100px;
+    margin-left: 15px;
+}

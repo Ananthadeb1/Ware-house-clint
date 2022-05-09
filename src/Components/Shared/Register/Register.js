@@ -58,15 +58,15 @@ const Login = () => {
             <form onSubmit={handleSubmit} >
                 <div className="mb-3">
                     <label htmlFor="name" className="form-label">Name</label>
-                    <input ref={nameRef} type="name" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                    <input ref={nameRef} type="name" className="form-control" placeholder='Your Name' id="exampleInputEmail1" aria-describedby="emailHelp" />
                 </div>
                 <div className="mb-3">
                     <label htmlFor="email" className="form-label">Email address</label>
-                    <input ref={emailRef} type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" />
+                    <input ref={emailRef} type="email" className="form-control" placeholder='Your Email' id="exampleInputEmail1" aria-describedby="emailHelp" required />
                 </div>
                 <div className="mb-3">
                     <label htmlFor="password" className="form-label">Password</label>
-                    <input ref={passwordRef} type="password" className="form-control" id="exampleInputPassword1" />
+                    <input ref={passwordRef} type="password" className="form-control" placeholder='Password' id="exampleInputPassword1" required />
                 </div>
                 <p>Already have an account ??? <Link to={'/login'} onClick={navigateToLogin} className='link-text'>Please Login</Link></p>
                 <div className='mb-2'>

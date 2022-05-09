@@ -6,6 +6,11 @@
     background-color: rgba(250, 135, 41, 0.808);
 }
 
+.card div a {
+    text-decoration: none;
+    color: brown;
+}
+
 .card button:hover {
     background-color: rgb(252, 220, 80);
 }
