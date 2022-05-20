@@ -2,13 +2,14 @@ import React, { useEffect, useState } from 'react';
 import useSpices from '../../../hooks/useSpices'
 // import Spice from '../../Shared/Spice/Spice';
 import Perfume from '../../Shared/Perfume/Perfume';
-import { useAuthState } from 'react-firebase-hooks/auth';
+import {useAuthState} from 'react-firebase-hooks/auth';
 import Spinner1 from '../../Shared/Spinner/Spinner';
-import './Inventory.css'
+import './Inventory.css';
 
 const Inventory = () => {
     const [perfumes, setPerfumes] = useSpices();
-
+    const [user]= useAuthState();
+    console.log(user);
     const handleSubmit = event => {
         event.preventDefault();
         const name = event.target.Name.value;

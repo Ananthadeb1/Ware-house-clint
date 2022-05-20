@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import useSPices from '../../../hooks/useSpices';
+// import useSPices from '../../../hooks/useSpices';
+import usePerfumes from '../../../hooks/usePerfumes';
 // import Spice from '../../Shared/Spice/Spice';
 import Perfume from '../../Shared/Perfume/Perfume';
 import Spinner1 from '../../Shared/Spinner/Spinner';
@@ -13,7 +14,7 @@ import health from './Healthy-Diet.jpg'
 
 
 const Home = () => {
-    const [perfumes, setPerfumes] = useSPices()
+    const [perfumes, setPerfumes] = usePerfumes();
 
     return (
         <div className='home'>

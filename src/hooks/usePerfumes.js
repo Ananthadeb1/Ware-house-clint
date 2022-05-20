@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
 
 const usePerfumes = () => {
-    const [Perfumes, setPerfumes] = useState([])
+    const [perfumes, setPerfumes] = useState([])
     useEffect(() => {
         fetch("https://enigmatic-tundra-20476.herokuapp.com/perfumes")
             .then(res => res.json())
             .then(data => setPerfumes(data))
 
     });
-    return [Perfumes, setPerfumes];
+    return [perfumes, setPerfumes];
 }
 
 export default usePerfumes;
