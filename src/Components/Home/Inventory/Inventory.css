@@ -6,14 +6,14 @@
     margin: 0 20px;
 }
 
-@media only screen and (max-width : 576px) {
+@media only screen and (max-width : 590px) {
     .spice-Container {
         grid-template-columns: repeat(1, 1fr);
     }
 
 }
 
-@media only screen and (min-width : 576px) and (max-width:993px) {
+@media only screen and (min-width : 590px) and (max-width:993px) {
     .spice-Container {
         grid-template-columns: repeat(2, 1fr);
     }

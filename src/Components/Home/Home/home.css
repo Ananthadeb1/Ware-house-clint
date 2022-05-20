@@ -5,7 +5,7 @@
 
 .home h2,
 h3 {
-    color: rgb(252, 40, 2);
+    color: grey;
     font-family: cursive;
     font-size: 50px;
     text-decoration: underline;
@@ -16,10 +16,20 @@ h3 {
     flex-direction: row;
 }
 
-@media only screen and (max-width : 576px) {
+.manage-stock-button {
+    background-color: rgba(58, 48, 50, 0.746);
+    border: 2px solid rgba(17, 14, 15, 0.746);
+}
+
+.manage-stock-button:hover {
+    background-color: rgba(139, 116, 120, 0.746);
+}
+
+@media only screen and (max-width : 590px) {
     .home .d-flex {
         flex-direction: column;
         margin-bottom: 20px;
+        
     }
 
 

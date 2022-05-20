@@ -33,20 +33,26 @@
 }
 
 .logo-container {
-    padding: 100px;
+    padding: 20%;
 }
 
 .footer-content-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-column-gap: 15px;
-    padding: 10px;
+    padding: 10px auto;
 }
 
-@media only screen and (max-width : 576px) {
+@media only screen and (max-width : 590px) {
     .footer-content-container {
         grid-template-columns: repeat(1, 1fr);
         grid-row-gap: 20px;
     }
 
+}
+
+@media only screen and (min-width : 590px) and (max-width:993px) {
+    .footer-content-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }

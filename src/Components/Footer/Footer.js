@@ -13,9 +13,8 @@ const Footer = () => {
         <footer>
             <div className='footer-content-container'>
                 <div className='my-auto'>
-                    <p className='footerName'>Spice Heaven</p>
-                    <p>A place for people who can feel the cooking.
-                        Cooking is an art,,,And we ensure you  get the perfect ingredient for it
+                    <p className='footerName'>Perfume House</p>
+                    <p>A place for people who like to  feel fress and confidant.
                     </p>
                 </div>
                 <div className='my-auto footer-link-container'>
@@ -31,10 +30,10 @@ const Footer = () => {
                 </div>
                 <div className='my-auto'>
                     <h1 className='footer-content-heading' >Contact us</h1>
-                    <p><img src={phone} alt="" /> +8801775348910</p>
-                    <p><img src={phone} alt="" /> +8801637168686</p>
-                    <p><img src={mail} alt="" /> spiceheaven@gmail.com</p>
-                    <p><img src={mail} alt="" /> tayeshhasnat@gmail.com</p>
+                    <p><img src={phone} alt="" /> +8801630147991</p>
+                    <p><img src={phone} alt="" /> +8801863286665</p>
+                    <p><img src={mail} alt="" /> perfumehouse22@gmail.com</p>
+                    <p><img src={mail} alt="" /> ananthadebnath103@gmail.com</p>
                 </div>
                 <div className='d-flex flex-column logo-container'>
                     <a href="https://play.google.com/store/apps"><img src={playLogo} alt="" /></a>
@@ -45,8 +44,8 @@ const Footer = () => {
             <div className='text-center m-5'>
                 <small>
                     <p >copyright © {currentYear}</p>
-                    <p>This website is under maintenance of Ittihad Hasnat</p>
-                    <p className='mx-5'>This is an experimental website for learning and knowledge aspects. There is no proffessional use of it. If noticed otherwise please contact at tayeshhasnat@gmail.com</p>
+                    <p>This website is under maintenance of Anantha Debnath</p>
+                    <p className='mx-5'>This is an experimental website for learning and knowledge aspects. There is no proffessional use of it. If noticed otherwise please contact at ananthadebnath103@gmail.com</p>
                 </small>
 
             </div>

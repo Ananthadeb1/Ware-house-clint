@@ -1,13 +1,13 @@
 import React from 'react';
 import { Link, useParams } from 'react-router-dom';
-import './spice.css'
+import './perfume.css'
 
-const Spice = ({ spice, Delete }) => {
-    const { _id, name, description, manufacturer, price, quantity, img } = spice;
+const Perfume = ({ perfume, Delete }) => {
+    const { _id, name, description, manufacturer, price, quantity, img } = perfume;
     const link = window.location.href.includes('inventory')
     let shortDescription;
     if (description?.length > 103) {
-        shortDescription = <span>{description.slice(' ', 102)}...<Link to={`/spice/${_id}`}> See more</Link></span>
+        shortDescription = <span>{description.slice(' ', 102)}...<Link to={`/perfume/${_id}`}> See more</Link></span>
     }
     else {
         shortDescription = description;
@@ -28,10 +28,10 @@ const Spice = ({ spice, Delete }) => {
                     <p className="card-text"><strong>Manufacturer</strong> : {manufacturer}</p>
                     {
                         link ? <div>
-                            <Link to={`/spice/${_id}`}><button className='btn rounded card-text'>Update Stock</button>  </Link>
+                            <Link to={`/perfume/${_id}`}><button className='btn rounded card-text'>Update Stock</button>  </Link>
                             <button onClick={() => Delete(_id)} className='btn rounded card-text'>Delete</button>
 
-                        </div> : <Link to={`/spice/${_id}`}><button className='btn rounded card-text'>Manage Stock</button>  </Link>
+                        </div> : <Link to={`/perfume/${_id}`}><button className='btn rounded card-text'>Manage Stock</button>  </Link>
                     }
 
                 </div>
@@ -41,4 +41,4 @@ const Spice = ({ spice, Delete }) => {
     );
 };
 
-export default Spice;
+export default Perfume;

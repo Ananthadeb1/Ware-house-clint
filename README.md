@@ -1,4 +1,12 @@
 # Getting Started with Create React App
+# Live Site Link(assignment-11-bf910.web.app)
+This Site is About : .\
+*React.js.\
+*JSX.\
+*Firebase Authentication.\
+*Backend work with Node.js.\
+*Accessing data from self-made-server deployed into Heroku.\
+*Firebase Hosting 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
