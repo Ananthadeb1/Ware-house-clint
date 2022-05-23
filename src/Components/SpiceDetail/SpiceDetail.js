@@ -76,7 +76,7 @@ const SpiceDetail = () => {
             quantity: perfume.quantity,
             price: perfume.price,
             manufacturer: perfume.manufacturer,
-            img: perfume.img
+            img: perfume.img,
         };
         const url = `https://enigmatic-tundra-20476.herokuapp.com/orders`;
         fetch(url, {

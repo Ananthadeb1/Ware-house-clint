@@ -1,7 +1,7 @@
 .add-form {
-    border: 1px solid rgba(158, 64, 2, 0.37);
+    border: 1px solid rgba(27, 25, 25, 0.746);
     border-radius: 3px;
-    background-color: rgba(241, 125, 30, 0.692);
+    background-color: rgba(91, 80, 82, 0.746);
 }
 
 
@@ -19,9 +19,9 @@
 }
 
 .formBtn {
-    border: 2px solid rgb(158, 64, 2);
+    border: 2px solid rgb(39, 32, 32);;
     border-radius: 3px;
-    background-color: rgba(161, 66, 3, 0.76);
+    background-color: rgba(58, 48, 50, 0.746);;
     width: 100px;
     margin-left: 15px;
 }

@@ -1,15 +1,12 @@
 import React, { useEffect, useState } from 'react';
-import useSpices from '../../../hooks/useSpices'
-// import Spice from '../../Shared/Spice/Spice';
+import usePerfumes from '../../../hooks/usePerfumes';
 import Perfume from '../../Shared/Perfume/Perfume';
 import {useAuthState} from 'react-firebase-hooks/auth';
 import Spinner1 from '../../Shared/Spinner/Spinner';
 import './Inventory.css';
 
 const Inventory = () => {
-    const [perfumes, setPerfumes] = useSpices();
-    const [user]= useAuthState();
-    console.log(user);
+    const [perfumes, setPerfumes] = usePerfumes();
     const handleSubmit = event => {
         event.preventDefault();
         const name = event.target.Name.value;
@@ -65,9 +62,9 @@ const Inventory = () => {
 
             </div>
             <div>
-                <form onSubmit={handleSubmit} className='d-flex align-items-center justify-content-center flex-column py-3 add-form'>
+                <form onSubmit={handleSubmit} className='font-colr d-flex align-items-center justify-content-center flex-column py-3 add-form'>
                     <div className='d-flex justify-content-between w-lg-50 w-sm-75 mb-2 '>
-                        <label className='formLabel me-2' htmlFor="Name" >Add Item :</label>
+                        <label className='formLabel  me-2' htmlFor="Name" >Add Item :</label>
                         <input className='formInput' type="text" name='Name' placeholder='Name' required />
                     </div>
                     <div className='d-flex justify-content-between w-lg-50 w-sm-75 mb-2 '>
@@ -90,7 +87,7 @@ const Inventory = () => {
                         <label className='formLabel me-2' htmlFor="PhotoURL" >Add Photo URL:</label>
                         <input className='formInput' type="text" name='PhotoURL' placeholder='PhotoURL' required />
                     </div>
-                    <input className='formBtn' type="submit" value="Add" />
+                    <input className='formBtn font-colr' type="submit" value="Add" />
                 </form>
             </div>
 

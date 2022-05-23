@@ -6,7 +6,6 @@ const usePerfumes = () => {
         fetch("https://enigmatic-tundra-20476.herokuapp.com/perfumes")
             .then(res => res.json())
             .then(data => setPerfumes(data))
-
     });
     return [perfumes, setPerfumes];
 }
